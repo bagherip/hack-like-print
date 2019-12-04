@@ -22,7 +22,7 @@ text = "$i5YPH0S "
 print("\n")
 for i, x in enumerate(text):
     for digit in digit_list:
-        if digit != text[i]:
+        if digit != x:
             print("\r",
                   (''.join(choice(digit_list) for _ in range(len(text)-1))), 
                   text[:i], end="",
