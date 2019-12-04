@@ -2,7 +2,7 @@ import string
 from random import choice
 from time import sleep
 
-# Gathers all ditis that should be shown while turning
+# Gathers all ditis that should be shown while cracking
 digit_list = "".join((string.digits,
                       string.ascii_lowercase,
                       string.ascii_uppercase,
